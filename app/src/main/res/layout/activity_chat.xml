@@ -31,7 +31,9 @@
          android:layout_height="wrap_content"
          android:id="@+id/send_button"
          android:text="@string/send_button"
-         android:textSize="23dp"/>
+         android:textSize="23dp"
+         android:padding="10dp"
+         android:background="@drawable/bg_round"/>
 
     </LinearLayout>
 
