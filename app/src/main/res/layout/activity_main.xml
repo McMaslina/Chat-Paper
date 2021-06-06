@@ -13,7 +13,9 @@
         android:text="Обсуждение новостей"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:padding="10dp"
+        android:background="@drawable/bg_round"/>
 
     <LinearLayout
         android:id="@+id/LinearLay"
@@ -24,11 +26,11 @@
 
         <TextView
             android:id="@+id/testtext"
-            android:layout_width="289dp"
-            android:layout_height="62dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_marginStart="60dp"
             android:layout_marginLeft="60dp"
-            android:layout_marginTop="32dp"
+            android:layout_marginTop="35dp"
             android:text="Новостная лента"
             android:textColor="#000000"
             android:textSize="30sp"
@@ -38,7 +40,9 @@
             android:id="@+id/listView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:dividerHeight="16dp"/>
+            android:dividerHeight="16dp"
+            android:padding="10dp"
+            android:background="@drawable/bg_round"/>
 
     </LinearLayout>
 
